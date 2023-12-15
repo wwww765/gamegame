@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@200&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+:root{
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: url('bd1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 200px 0;
+    border-radius: 30px;
+}
+.logo {
+    width: 10%; 
+    height: 10%; 
+    margin-top: -190px;
+    margin-left: 20px;
+
+}
+.title {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+.title h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.title p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-daftar {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0c6dff;
+    border-radius: 5px;
+}
+
+.btn-daftar:hover {
+    background-color: #3c3c3c;
+}
+.row1{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    max-height: 40px;
+    padding: 50px;
+    text-align: center;
+}
+.row{
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    padding: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.rower{
+    background-color: #fff;
+    max-width: 500px;
+    max-height: auto;
+    margin: 50px;
+    padding: 20px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #646363;
+}
+.rower{
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+.btnrower{
+    display: inline block;
+    padding: 5px 30px;
+    text-decoration: none;
+    width: ;
+    background-color: #0c6dff;
+    color: #fff;
+    border-radius: 5px;
+}
+.btnrower:hover{
+    background-color: #646363;
+}
+footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0c6dff;
+    color: #fff;
+    padding: 20px;
+}
+
+.footerprt {
+    margin-bottom: 20px;
+}
+.footerprt p {
+    font-size: smaller;
+    font-family: 'poppins', sans-serif;
+}
+.footertrk{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.partone{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #eaeaea;
+    max-height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btnrower {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 3px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0c6dff;
+    border-radius: 10px;
+}
+.btnrower:hover {
+    background-color: black;
+    color: white;
+}
+.indukproduct{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 7px;
+
+}
+.bgproduct{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    max-height: auto;
+    max-width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid purple;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: smaller;
+}
+.potongan {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    border: #0c6dff;
+    background-color: #ffff;
+}
+.potongan2 {
+    text-align: center;
+    padding-top: 100px;
+}
+.bgproduct img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.komen {
+    display: flex;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.komen2 {
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 300px;
+    margin-left: 70px;
+}
+.komen2 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: smaller;
+}
+.navbar {
+    background-color:white ;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+}
+  
+  
+  
